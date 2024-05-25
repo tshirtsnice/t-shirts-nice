@@ -1,69 +1,69 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mis Enlaces😍</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #000; /* Fondo negro */
-        }
-        .container {
-            text-align: center;
-        }
-        h1 {
-            color: #87CEEB; /* Azul cielo */
-            font-size: 1.5em; /* Tamaño del texto reducido */
-            margin-bottom: 20px; /* Espacio inferior */
-        }
-        .link {
-            display: block;
-            width: 80%; /* Ocupa el 80% del ancho de la pantalla */
-            margin: 10px auto; /* Centra los enlaces */
-            padding: 10px 20px;
-            text-decoration: none;
-            color: white; /* Texto blanco */
-            background: linear-gradient(to left, #ff69b4, #007bff); /* Degradado de azul a rosa */
-            border-radius: 5px;
-            overflow: hidden;
-            white-space: nowrap;
-            font-size: 1.2em; /* Tamaño de fuente reducido */
-        }
-        .link:hover {
-            background: linear-gradient(to left, #ff69b4, #0056b3); /* Degradado de azul oscuro a rosa en hover */
-        }
-        .link span {
-            display: inline-block;
-            position: relative;
-            animation: slide-left 2s infinite;
-        }
-        @keyframes slide-left {
-            0% {
-                left: 0;
-            }
-            50% {
-                left: -50px;
-            }
-            100% {
-                left: 0;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mis Enlaces</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000; /* Fondo negro */
+      color: #fff; /* Texto blanco para contrastar con el fondo negro */
+    }
+    .container {
+      max-width: 400px; /* Ancho máximo similar a Linktree */
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #333; /* Color gris oscuro Oxford */
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .link {
+      display: block;
+      margin: 10px 0;
+      padding: 15px;
+      text-decoration: none;
+      text-align: center;
+      color: #fff;
+      background-color: #007bff; /* Color de fondo similar a Linktree */
+      border-radius: 10px; /* Esquinas redondeadas */
+      transition: background-color 0.3s ease;
+      font-size: 16px;
+    }
+    .link:hover {
+      background-color: #0056b3; /* Color de fondo al pasar el mouse similar a Linktree */
+    }
+    /* Mejoras para móviles */
+    @media only screen and (max-width: 768px) {
+      h1 {
+        font-size: 20px;
+      }
+      .link {
+        font-size: 14px;
+        padding: 10px;
+      }
+    }
+    @media only screen and (max-width: 480px) {
+      .container {
+        max-width: 100%;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Mis Enlaces😍</h1>
-        <a href="https://www.instagram.com/t_shirts_nice_new/" class="link"><span>Instagram 📸</span></a>
-        <a href="https://www.lolapay.com/tshirtsnice" class="link"><span>Tienda 🛒</span></a>
-        <a href="https://www.whatsapp.com/catalog/5212482406909/" class="link"><span>Whats App 📨</span></a>
-        <a href="https://www.facebook.com/tshirtsnice" class="link"><span>Facebook 🤳</span></a>
-    </div>
+  <div class="container">
+    <h1>Mis Enlaces</h1>
+    <a href="https://www.instagram.com/t_shirts_nice_new/" class="link">Instagram </a>
+    <a href="https://www.lolapay.com/tshirtsnice" class="link">Tienda </a>
+    <a href="https://www.whatsapp.com/catalog/5212482406909/" class="link">Whats App </a>
+    <a href="https://www.facebook.com/tshirtsnice" class="link">Facebook </a>
+  </div>
 </body>
 </html>
