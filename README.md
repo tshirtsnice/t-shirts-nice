@@ -1,4 +1,3 @@
-# t-shirts-nice
 <!DOCTYPE html>
 <html lang="es">
 <head>
