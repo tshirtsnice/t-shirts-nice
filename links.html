@@ -20,26 +20,13 @@
         }
         h1 {
             color: #87CEEB; /* Azul cielo */
-            font-size: 2em; /* Tamaño del texto */
+            font-size: 1.5em; /* Tamaño del texto reducido */
             margin-bottom: 20px; /* Espacio inferior */
-            position: relative; /* Posición relativa para el efecto */
-            display: inline-block; /* Bloque en línea para animación */
-            animation: wave 2s infinite linear; /* Animación de onda */
-        }
-        @keyframes wave {
-            0% {
-                transform: rotateZ(0deg); /* Sin rotación */
-            }
-            50% {
-                transform: rotateZ(5deg); /* Rotación hacia la derecha */
-            }
-            100% {
-                transform: rotateZ(0deg); /* Volver a la posición original */
-            }
         }
         .link {
             display: block;
-            margin: 10px 0;
+            width: 80%; /* Ocupa el 80% del ancho de la pantalla */
+            margin: 10px auto; /* Centra los enlaces */
             padding: 10px 20px;
             text-decoration: none;
             color: white; /* Texto blanco */
@@ -47,6 +34,7 @@
             border-radius: 5px;
             overflow: hidden;
             white-space: nowrap;
+            font-size: 1.2em; /* Tamaño de fuente reducido */
         }
         .link:hover {
             background: linear-gradient(to left, #ff69b4, #0056b3); /* Degradado de azul oscuro a rosa en hover */
