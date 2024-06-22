@@ -63,7 +63,7 @@
     <a href="https://www.lolapay.com/tshirtsnice" class="link">Tienda</a>
     <a href="https://www.whatsapp.com/catalog/5212482406909/" class="link">WhatsApp</a>
     <a href="https://www.facebook.com/tshirtsnice" class="link">Facebook</a>
-    <a href="https://no-tengo-46559362.hubspotpagebuilder.com/es/playeras-y-sudaderas" class="link">HubSpot</a>
+    <a href="https://no-tengo-46559362.hubspotpagebuilder.com/es/playeras-y-sudaderas" class="link">Landing page</a>
   </div>
 </body>
 </html>
